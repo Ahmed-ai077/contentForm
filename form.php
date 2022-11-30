@@ -25,7 +25,7 @@
 
     <?php 
       $fName = $_POST['fName'];
-      echo $fName;
+      echo "<h1>'.$fName.'<h1>"
     ?>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
