@@ -18,8 +18,16 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+<form action='form.php' method="post">
+  <input type="text" name="fName" value="First Name">  </input>
+  <button type="submit" value="Submit"> </button>
+</form>
 
+    <?php 
+      $fName = $_POST['fName'];
+      echo $fName;
+    ?>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
